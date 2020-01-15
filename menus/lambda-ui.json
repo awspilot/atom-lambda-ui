@@ -1,0 +1,18 @@
+{
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Lambda",
+					"submenu": [
+						{
+							"label": "Open",
+							"command": "lambda-ui:new"
+						}
+					]
+				}
+			]
+		}
+	]
+}
