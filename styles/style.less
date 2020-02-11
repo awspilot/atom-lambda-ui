@@ -1,0 +1,26 @@
+
+/* other themes */
+@import (less) "../node_modules/@awspilot/ractive-lambda-ui/dist/ractive-lambda-ui.min.css";
+
+/* atom theme */
+@import "ui-variables";
+
+
+.atom-lambda-ui {
+	position: absolute; top: 0px;left: 0px;right: 0px;bottom: 0px;
+}
+
+
+
+/* top toolbar outside dynamodb-ui */
+.atom-lambda-ui > .toolbar {position: absolute; top: 0px;right: 5px;height: 30px;width: 50px;line-height: 30px;}
+
+
+.atom-lambda-ui.theme-atom    {background-color: @tab-background-color-active;}
+.atom-lambda-ui.theme-atom > .toolbar > a { color: @text-color}
+
+.atom-lambda-ui.theme-aws     {background-color: #fff;}
+.atom-lambda-ui.theme-aws > .toolbar > a { color: #55002d}
+
+.atom-lambda-ui.theme-windows {background-color: #54a9a9;}
+.atom-lambda-ui.theme-windows > .toolbar > a { color: #55002d}
