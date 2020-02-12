@@ -8,7 +8,7 @@
 					"submenu": [
 						{
 							"label": "Open",
-							"command": "lambda-ui:new"
+							"command": "amazon-lambda-ui:new"
 						}
 					]
 				}
