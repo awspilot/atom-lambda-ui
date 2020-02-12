@@ -11,7 +11,7 @@
 	"version": "0.0.0",
 	"description": "AWS Lambda User Interface",
 	"keywords": [],
-	"repository": "git@github.com:awspilot/atom-lambda-ui.git",
+	"repository": "https://github.com/awspilot/atom-lambda-ui",
 	"license": "MIT",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
